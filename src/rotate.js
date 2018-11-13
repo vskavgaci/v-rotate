@@ -1,6 +1,6 @@
-import Vue from 'vue';
 
-export default Vue.directive('rotate', {
+
+const rotate = {
     bind(el, binding, vnode){
 
                   (function() {
@@ -69,4 +69,6 @@ export default Vue.directive('rotate', {
 
                   }).call(this);
               },
-});
+};
+
+export const rotate;
