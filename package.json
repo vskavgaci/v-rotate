@@ -1,0 +1,30 @@
+{
+  "name": "@eyaylagul/v-rotate",
+  "version": "0.0.1",
+  "description": "A Vue.js rotate directive wrap",
+  "main": "lib/rotate.js",
+  "dependencies": {},
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "rimraf": "^2.6.2"
+  },
+  "scripts": {
+    "start": "babel-node src",
+    "build": "rimraf lib && babel src -d lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eyaylagul/v-rotate.git"
+  },
+  "keywords": [],
+  "author": "Emre Yaylagül",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eyaylagul/v-rotate/issues"
+  },
+  "homepage": "https://github.com/eyaylagul/v-rotate#readme",
+  "directories": {
+    "lib": "lib"
+  }
+}
